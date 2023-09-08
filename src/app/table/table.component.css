@@ -3,69 +3,84 @@
   font-family: Neo Sans Arabic;
 }
 
-
-.search{
+.search {
   display: flex;
   flex-direction: row;
-align-items: center;  
-margin-top: 1.62rem;
+  align-items: center;
+  margin-top: 1.62rem;
   margin-bottom: 1rem;
   margin-right: 8.44rem;
   background: transparent;
 }
 
-.search span{
-  color: #1C1C28;
+.search span {
+  color: #1c1c28;
 
-font-family: Neo Sans Arabic;
-font-size: 1rem;
-font-style: normal;
-font-weight: 400;
-line-height: normal;
-background-color: transparent;
-margin-left: 1.6rem;
+  font-family: Neo Sans Arabic;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background-color: transparent;
+  margin-left: 1.6rem;
 }
 
-.search input{
-  width: 17.3125rem;
-height: 2.25rem;
-flex-shrink: 0;
-/* stroke-width: 3px;
+.search input {
+  max-width: 17.3125rem;
+  height: 2.25rem;
+  flex-shrink: 0;
+  /* stroke-width: 3px;
 stroke: rgba(255, 255, 255, 0.863); */
-border-radius: 0.375rem;
-fill: #FFF;
-stroke-width: 1px;
-stroke: rgba(146, 161, 173, 0.40);
-padding-right:2rem ;
-background: url("https://static.thenounproject.com/png/101791-200.png") no-repeat right;
-background-size: 20px;
+  border-radius: 0.375rem;
+  fill: #fff;
+  stroke-width: 1px;
+  stroke: rgba(146, 161, 173, 0.4);
+  padding-right: 2rem;
+  background: url('https://static.thenounproject.com/png/101791-200.png')
+    no-repeat right;
+  background-size: 20px;
 }
 
-.search button{
+.smallbutton {
   border: none;
-  background: transparent;
+  background: #fff;
   width: 2.25rem;
   height: 2.25rem;
-background: transparent;}
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border: none;
+  border-radius: 0.375rem;
+  margin: 0.5rem;
+}
 
-  .searchleft{
-    position: absolute;
-    left: 2rem;
-    background-color: #F3F5F7;
-  }
+.searchleft {
+  position: absolute;
+  left: 2.5rem;
+  background-color: #f3f5f7;
+}
 
-  .searchleft button{
-width: 7rem;
-align-items: center;
-gap: 0.5rem;
-border-radius: 0.375rem;
-background: #8A74F9;
-color: white;
-cursor: pointer;
-  }
+.searchleft button {
+  width: 7.5rem;
+  height: 2rem;
+  align-items: center;
+  gap: 0.5rem;
+  border-radius: 0.375rem;
+  background: #8a74f9;
+  color: white;
+  cursor: pointer;
+  transition: 1s;
+  border: none;
+}
 
-  .searchleft span{
-  }
+.searchleft button:hover {
+  scale: 1.07;
+  transition: 1s;
+  filter: brightness(1.6);
+}
+
+.searchleft span {
+}
 .tconatiner {
   width: 90%;
   height: 19.9375rem;
@@ -258,19 +273,15 @@ svg {
   line-height: 0.84375rem; /* 100% */
   letter-spacing: -0.00844rem;
   transition: 0.5s;
-
 }
 
-.left span:hover{
+.left span:hover {
   border-radius: 0.28125rem;
-background: #8A74F9;
-color: #fff;
-padding-right: 0.5rem;
-padding-left:0.5rem;
-padding-top: 0.5rem;
-transition: 0.5s;
-scale: 1.5;
+  background: #8a74f9;
+  color: #fff;
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+  padding-top: 0.5rem;
+  transition: 0.5s;
+  scale: 1.5;
 }
-
-
-
