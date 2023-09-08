@@ -1,7 +1,7 @@
 /* You can add global styles to this file, and also import other style files */
 @font-face {
     font-family: 'Neo Sans Arabic';
-    src: url('src/assets/alfont_com_NeoSansArabic.ttf');
+    src: url('/assets/alfont_com_NeoSansArabic.ttf');
   }
 *{
     font-family: Neo Sans Arabic;
