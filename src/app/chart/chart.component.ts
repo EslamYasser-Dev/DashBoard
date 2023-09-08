@@ -40,7 +40,7 @@ export class ChartComponent implements OnInit {
         ],
         datasets: [
           {
-            label: 'عدد مرات الاستخدام',
+            label: ' استخدام',
             backgroundColor: '#8A74F9',
             borderColor: '#8A74F9',
             data: [

@@ -1,6 +1,111 @@
+*{
+  background:transparent ;
+  color: #fff;
+  text-align: center;
+  font-family: Neo Sans Arabic;
+}
+
+.remove{
+  position:absolute;
+  top:1.5rem;
+  left: 0.5rem;
+  cursor: pointer;
+  border-radius: 0.51975rem;
+border: 0.832px dashed #DDD;
+transition: 1s;
+
+}
+
 .container {
-  width: 25.5rem;
-  height: 16.5rem;
+  width:38rem;
+  height:16rem;
+  max-width: 200%;
+  max-height: 15rem;
   border-radius: 0.77963rem;
-background: #3DD598;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem;
+  margin-right: 1rem;
+  position: relative;
+  background: radial-gradient(circle at bottom left,transparent 25%,#4d3ff2 25.5%, #4d3ff2 36%, transparent 37%, transparent 100%),radial-gradient(circle at top right,transparent 34%,#4d3ff2 34.5%, #4d3ff2 45.5%, transparent 46%, transparent 100%);
+        background-size: 2em 2em;
+        background-color: #6860ff;
+        opacity: 0.75;
+        filter: blur(0.01rem);
+        transition: 0.8s;
+
+}
+
+.container p{
+  padding: 0;
+  background: transparent;
+  color: #FFF;
+text-align: center;
+font-size: 0.9rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+}
+
+.discount p{
+  text-align: start;
+  font-weight: bold ;
+}
+
+
+.container input{
+  background-color: #fff;
+  width: 14.13719rem;
+height: 2.625rem;
+flex-shrink: 0;
+border-radius: 0.51975rem;
+border: 0.832px dashed #DDD;
+background: #FFF;
+color: #8A74F9;
+}
+
+.discount{
+  position:absolute;
+  bottom: 1rem;
+  right: 1rem;
+  align-items: start;
+}
+
+.share{
+  border-radius: 0.375rem;
+  border: 0.75px solid #ddd;
+  height: 3rem;
+  padding: 0.3rem;
+  margin-right: 1rem;
+  cursor: pointer;
+  transition: 1s;
+
+}
+
+.qrcode{
+  position:absolute;
+  bottom: 1.13rem;
+  left: 2rem;
+}
+
+.remove:hover{
+  color: #8A74F9;
+  background-color: #ffffff7e;
+  scale: 1.1;
+  transition: 1s;
+}
+
+.share:hover{
+  color: black;
+  background-color: #FFF;
+  scale: 1.05;
+  transition: 1s;
+
+}
+
+
+.container:hover{
+  filter: blur(0.05rem);
+  transition: 0.8s;
 }

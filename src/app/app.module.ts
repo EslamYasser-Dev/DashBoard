@@ -15,6 +15,4 @@ import { TableComponent } from './table/table.component';
 })
 export class AppModule{
     public chart: any;
-
-
 }
